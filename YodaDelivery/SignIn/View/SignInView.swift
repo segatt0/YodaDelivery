@@ -18,23 +18,32 @@ struct SignInView: View {
             
                 .ignoresSafeArea()
             ZStack {
-                
+            
                 Color.white
                     .ignoresSafeArea(edges:.top)
-                    .frame(width: 300, height: 300)
+                    
+                    .scaledToFit()
+                    
             }
-            
-        }
             VStack() {
                 
                 logoYoda
                 fieldLogin
                 Spacer()
             }
+
+           
+            
         }
+                    }
     }
 
-
+//ZStack {
+//
+//    Color.white
+//        .ignoresSafeArea(edges:.top)
+//        .frame(width: 300, height: 300)
+//}
 
 extension SignInView {
     var logoYoda: some View {
