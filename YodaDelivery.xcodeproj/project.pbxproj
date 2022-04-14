@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		22D55CAB2808B45800A292ED /* YodaDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D55CAA2808B45800A292ED /* YodaDeliveryApp.swift */; };
-		22D55CAD2808B45800A292ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D55CAC2808B45800A292ED /* ContentView.swift */; };
 		22D55CAF2808B46300A292ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D55CAE2808B46300A292ED /* Assets.xcassets */; };
 		22D55CB22808B46300A292ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D55CB12808B46300A292ED /* Preview Assets.xcassets */; };
+		22D55CBD2808D6A500A292ED /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D55CBC2808D6A500A292ED /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22D55CA72808B45800A292ED /* YodaDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YodaDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D55CAA2808B45800A292ED /* YodaDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodaDeliveryApp.swift; sourceTree = "<group>"; };
-		22D55CAC2808B45800A292ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22D55CAE2808B46300A292ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D55CB12808B46300A292ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22D55CBC2808D6A500A292ED /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 		22D55CA92808B45800A292ED /* YodaDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				22D55CB82808D61800A292ED /* SignIn */,
 				22D55CAA2808B45800A292ED /* YodaDeliveryApp.swift */,
-				22D55CAC2808B45800A292ED /* ContentView.swift */,
 				22D55CAE2808B46300A292ED /* Assets.xcassets */,
 				22D55CB02808B46300A292ED /* Preview Content */,
 			);
@@ -65,6 +65,38 @@
 				22D55CB12808B46300A292ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22D55CB82808D61800A292ED /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				22D55CBB2808D64100A292ED /* ViewModel */,
+				22D55CBA2808D63B00A292ED /* Model */,
+				22D55CB92808D62800A292ED /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		22D55CB92808D62800A292ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22D55CBC2808D6A500A292ED /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22D55CBA2808D63B00A292ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22D55CBB2808D64100A292ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D55CAD2808B45800A292ED /* ContentView.swift in Sources */,
+				22D55CBD2808D6A500A292ED /* SignInView.swift in Sources */,
 				22D55CAB2808B45800A292ED /* YodaDeliveryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
